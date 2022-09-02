@@ -1,7 +1,5 @@
 /// <reference types="cypress" />
 
-import { loginPage } from "./loginPage"
-
 class MyAccountPage {
     get signoutLink() { return cy.get('.logout') }
     get pageHeading() { return cy.get('.page-heading') }
@@ -12,10 +10,6 @@ class MyAccountPage {
 
     public logout() {
         this.signoutLink.click()
-    }
-
-    public validateSuccessfulLogout() {
-        loginPage.signinLink.should('be.visible')
     }
 }
 

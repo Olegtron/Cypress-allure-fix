@@ -22,8 +22,6 @@
 
 -   Clone the repository using "git clone "
 
--   Change "Username" and "Password"
-
 -   npm install
 
 -   npm run cy:run
