@@ -6,3 +6,4 @@ cypress/downloads
 reports/**
 docs/**
 allure-results/**
+allure-report/**
