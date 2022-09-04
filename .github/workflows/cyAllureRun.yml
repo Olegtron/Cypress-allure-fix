@@ -34,7 +34,4 @@ jobs:
             - name: Deploy report
               uses: JamesIves/github-pages-deploy-action@3.1.0
               if: always()
-              with:
-                  github_token:
-                  publish_branch:
-                  publish_dir:
+
