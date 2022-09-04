@@ -4,12 +4,9 @@
   "description": "\"Automation Testing framework using cypress and typescript with allure-report\"",
   "main": "index.js",
   "scripts": {
-    "cy:e2e:run": "npm run clear && npm run cy:run && npm run report",
     "cy:open": "cypress open --config-file config/config.config.ts --env allure=true",
     "cy:run": "cypress run --config-file config/config.config.ts --env allure=true",
-    "report": "npx allure generate reports/ui/allure-results --clean -o reports/ui/allure-report && allure open reports/ui/allure-report",
-    "allure:generate": "npx allure generate allure-results --clean",
-    "clear": "rm -r reports/** || true"
+    "allure:generate": "npx allure generate allure-results --clean"
   },
   "keywords": [
     "cypress",
