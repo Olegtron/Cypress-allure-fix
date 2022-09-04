@@ -1,4 +1,4 @@
-name: Cypress Tests using Cypress Docker Image with allure-report
+name: Cypress Tests with allure-report
 
 on:
     push:
