@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Sep 04 14:53:29 UTC 2022","Sun Sep 04 14:53:35 UTC 2022","6361","","Login Functionality","","","","Should login with invalid email credentials read data from fixture",""
+"passed","Sun Sep 04 14:53:13 UTC 2022","Sun Sep 04 14:53:29 UTC 2022","15626","","Login Functionality","","","","Should login with valid credentials read data from fixture",""
+"passed","Sun Sep 04 14:53:35 UTC 2022","Sun Sep 04 14:53:43 UTC 2022","8237","","Login Functionality","","","","Should login with invalid password credentials read data from fixture",""
+"passed","Sun Sep 04 14:53:43 UTC 2022","Sun Sep 04 14:53:50 UTC 2022","6274","","Login Functionality","","","","Should login with wrong email format credentials read data from fixture",""
