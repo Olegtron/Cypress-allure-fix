@@ -35,6 +35,6 @@ jobs:
               uses: JamesIves/github-pages-deploy-action@3.1.0
               if: always()
               with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  publish_branch: gh-pages
-                  publish_dir: allure-report
+                  github_token:
+                  publish_branch:
+                  publish_dir:
