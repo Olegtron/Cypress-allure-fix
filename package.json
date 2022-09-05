@@ -6,7 +6,8 @@
   "scripts": {
     "cy:open": "cypress open --config-file config/config.config.ts --env allure=true",
     "cy:run": "cypress run --config-file config/config.config.ts --env allure=true",
-    "allure:generate": "npx allure generate allure-results --clean"
+    "allure:generate": "npx allure generate allure-results --clean",
+    "report": "allure open docs"
   },
   "keywords": [
     "cypress",
