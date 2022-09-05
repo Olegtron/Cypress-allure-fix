@@ -12,12 +12,6 @@
 
 ---
 
-**Directory Structure**
-
-<img width="388" alt="Project structure" src="https://i.imgur.com/ShDQGy8.png">
-
----
-
 ## **Steps to run**
 
 -   Clone the repository using "git clone "
@@ -26,8 +20,7 @@
 
 -   npm run cy:run
 
----
+**To open allure report in browser use:**
 
-**Report view**
+-   npm run report
 
-<img width="388" alt="Allure report" src="https://i.imgur.com/6mIIpzz.png">
